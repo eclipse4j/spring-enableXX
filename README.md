@@ -1,6 +1,6 @@
 # Spring ( boot ) 에서 @EnableXXX 설정 활성화
 
-** 기본 생성시 **
+### 기본 생성시 
  
 ```
 
@@ -14,7 +14,7 @@ public class StudySpringEnableAnnotationApplication {
 
 ```
 
-*** Enable Annotation 만들기 ***
+### Enable Annotation 만들기 
 
 ```
 
@@ -26,7 +26,7 @@ public @interface EnableRestTemplate {
 
 ```
 
-*** Spring RestTemplate 를 bean으로 등록하는 Configuration를 만든다. ***
+### Spring RestTemplate 를 bean으로 등록하는 Configuration를 만든다. 
 
 ```
 
@@ -40,7 +40,7 @@ public class RestTemplateConfiguration {
 
 ```
 
-*** 생성했던 @EnableRestTemplate에 해당 Configuration을 Import시킨다. ***
+### 생성했던 @EnableRestTemplate에 해당 Configuration을 Import시킨다.
 
 ```
 
@@ -53,7 +53,7 @@ public @interface EnableRestTemplate {
 
 ```
 
-*** 마지막으로 운영의 Configuration에 @Enable... 을 걸어주면 된다. ***
+### 마지막으로 운영의 Configuration에 @Enable... 을 걸어주면 된다.
  
 ```
 
